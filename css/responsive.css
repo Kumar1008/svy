@@ -1,6 +1,6 @@
 
 /* Normal desktop :1200px. */
-@media (min-width: 1200px) and (max-width: 1500px) {
+@media (min-width: 1200px) and (max-width: 1536px) {
     .gallery-image figcaption h4 {
   display: none;
 }
