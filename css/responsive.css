@@ -18,7 +18,7 @@
     padding: 0px 8px;
 }
     .header-social {
-    display: none;
+    display: block;
 }
     .portfolio .col4 .grid-item {
     width: 24.9%;
