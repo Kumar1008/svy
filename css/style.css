@@ -10370,3 +10370,106 @@ color: #fff;
 .footer-top.wpding {
     background: #010c26;
 }
+
+
+ .timeline {
+  margin: 0 auto;
+  position: relative;
+  padding: 0;
+ 
+}
+.timeline .timeline-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 0;
+  align-items: center;
+  position: relative;
+}
+.timeline .timeline-item:after {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  left: 50%;
+  background: #fff;
+  border: 3px solid #ef3e42;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 2;
+  border-radius: 100%;
+}
+.timeline .timeline-item > div {
+  width: 44%;
+}
+.timeline .timeline-item > div img {
+  border-radius: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.timeline .timeline-item__content {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0) 50%);
+  line-height: 1.5;
+  padding: 5px 35px;
+  border-radius: 20px;
+  position: relative;
+  box-sizing: border-box;
+  margin-top: 22px;
+}
+.timeline .timeline-item__content .timeline-item__title {
+  color: #005eb8;
+  margin-bottom: 0;
+  font-size: 1.6em;
+  font-weight: 500;
+}
+.timeline .timeline-item__content .timeline-item__date {
+  position: absolute;
+  bottom: 100%;
+  left: 35px;
+  padding-bottom: 3px;
+  font-size: 1.2em;
+  font-weight: bold;
+  opacity: 1;
+  color: #ef3e42;
+  letter-spacing: -0.025em;
+  line-height: 1em;
+}
+.timeline .timeline-item__content:after {
+  position: absolute;
+  content: "";
+  top: calc(50% - 10px);
+  left: 100%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 0 20px 20px;
+  border-color: transparent transparent transparent rgba(0, 0, 0, 0.05);
+}
+.timeline .timeline-item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.timeline .timeline-item:nth-child(even) .timeline-item__content {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0) 50%);
+}
+.timeline .timeline-item:nth-child(even) .timeline-item__content .timeline-item__date {
+  position: absolute;
+  bottom: 100%;
+  left: 5px;
+  right: auto;
+}
+.timeline .timeline-item:nth-child(even) .timeline-item__content:after {
+  left: auto;
+  right: 100%;
+  transform: translateY(-50%) rotate(180deg);
+}
+.timeline:after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  background: linear-gradient(to bottom, #fff 0%, #333 50px, #333 calc(100% - 50px), #fff 100%);
+}
