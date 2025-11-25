@@ -1023,7 +1023,7 @@ margin-top: 15px;
       display: none;
 }
     .about-content h3{
-         display: none;
+         display:block; 
     }
     .f-insta ul li {
     margin-bottom: 8px;

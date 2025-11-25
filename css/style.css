@@ -27,11 +27,12 @@
 /* 1. Theme default css */
  body {
        font-family: 'Roboto', sans-serif;
-	font-size: 15px;
+	font-size: 17px;
 	font-weight: normal;
 	color: #282828;
 	font-style: normal;
-     line-height: 26px;
+    line-height: 26px;
+    font-weight: 400;
 }
 .mean-container a.meanmenu-reveal span {
     background: no-repeat;
@@ -1416,7 +1417,7 @@ bottom: 5px;
 	margin-bottom: 30px;
 }
 .about-title h2 {
-	font-size: 70px;
+	font-size: 50px;
     margin-bottom: 0 !important;
 }
 .about-title h5{
@@ -10473,3 +10474,69 @@ color: #fff;
   background: #333;
   background: linear-gradient(to bottom, #fff 0%, #333 50px, #333 calc(100% - 50px), #fff 100%);
 }
+
+.gray-bg {background-color: #f6f8fc;}
+.img-bg {background-image:url(img/bg/video-img.png); background-size: cover;}
+.timeline-steps {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.timeline-steps .timeline-step {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 1rem
+}
+
+@media (min-width:768px) {
+    .timeline-steps .timeline-step:not(:last-child):after {
+        content: "";
+        display: block;
+        border-top: .25rem dotted #3b82f6;
+        width: 3.46rem;
+        position: absolute;
+        left: 7.5rem;
+        top: .3125rem
+    }
+    .timeline-steps .timeline-step:not(:first-child):before {
+        content: "";
+        display: block;
+        border-top: .25rem dotted #3b82f6;
+        width: 10rem;
+        position: absolute;
+        right: 7.5rem;
+        top: .3125rem
+    }
+}
+
+.timeline-steps .timeline-content {
+    width: 10rem;
+    text-align: center
+}
+
+.timeline-steps .timeline-content .inner-circle {
+    border-radius: 1.5rem;
+    height: 1rem;
+    width: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3b82f6
+}
+
+.timeline-steps .timeline-content .inner-circle:before {
+    content: "";
+    background-color: #3b82f6;
+    display: inline-block;
+    height: 3rem;
+    width: 3rem;
+    min-width: 3rem;
+    border-radius: 6.25rem;
+    opacity: .5
+}
+
+.text-green{color: #00ff7e;}
+.text-blue{color: #002c47;}
