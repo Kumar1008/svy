@@ -166,7 +166,7 @@ h6 a {
 	color: inherit;
 }
 h1 {
-	font-size: 40px;
+	font-size: 50px;
 	font-weight: 600;
 }
 h2 {
@@ -188,6 +188,7 @@ ul {
 	margin: 0px;
 	padding: 0px;
 }
+.list-style li{list-style:circle;}
 li {
 	list-style: none
 }
@@ -8885,10 +8886,10 @@ color: #fff;
 padding: 25px;
 overflow: hidden;
 margin-bottom: 40px;
-border: 2px solid #e6f5f9 !important;
+border: 2px solid #deaa93 !important;
 border-radius: 5px;
 border-radius: 5px;
-background: #f5fdff;
+background: #000f38;
 }
 .sidebar-widget .widget li {
     padding-bottom: 5px;
@@ -8907,7 +8908,7 @@ background: #f5fdff;
 	text-align:left;
 	font-weight: 700;
 	margin-bottom: 30px;
-    border-left: 4px solid #06315b;
+    border-left: 4px solid #deaa93;
     padding-left: 15px;
 }
 .sidebar-widget .widget .gallery-icon a:hover
