@@ -188,9 +188,23 @@ ul {
 	margin: 0px;
 	padding: 0px;
 }
-.list-style li{list-style:circle;}
+.list-style li{list-style:disc; 
+ content: "✶"; /* Use a Unicode character or emoji */
+ padding: 5px;
+
+    
+  
+}
 li {
-	list-style: none
+	list-style: none;
+    padding-right: 10px;
+}
+li::marker {
+  content: "✶"; /* Use a Unicode character or emoji */
+  color: rgb(255 158 115);/* Customize color */
+  font-size: 1.1em; /* Adjust size */
+  margin-right: 10px;
+   font-size: 25px;
 }
 p {
 
