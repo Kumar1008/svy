@@ -191,13 +191,13 @@ ul {
 .list-style li{list-style:disc; 
  content: "✶"; /* Use a Unicode character or emoji */
  padding: 5px;
-
-    
+ padding-left: 10px;   
+ padding-bottom: 3  px;
   
 }
 li {
 	list-style: none;
-    padding-right: 10px;
+    
 }
 li::marker {
   content: "✶"; /* Use a Unicode character or emoji */
@@ -205,6 +205,7 @@ li::marker {
   font-size: 1.1em; /* Adjust size */
   margin-right: 10px;
    font-size: 25px;
+   padding: 5px;
 }
 p {
 
@@ -1468,8 +1469,8 @@ bottom: 5px;
 	margin-bottom: 45px;
 }
 .about-content li {
-    display: flex;
-    margin-bottom: 10px;
+    
+    margin-bottom: 5px;
 }
 .about-content li .text {
     padding-top: 5px;
@@ -10556,3 +10557,27 @@ color: #fff;
 .text-green{color: #00ff7e;}
 .text-blue{color: #002c47;}
 .text-blue-1{color: #0000ff;}
+
+/* Make sidebar sticky */
+.sticky-top{top:130px;}
+.sidebar-widget.sticky-top {
+    position: sticky !important;
+    top: 140px; /* Adjust based on your header height */
+    z-index: 5;
+}
+
+/* Ensure parent containers do NOT block sticky */
+.lower-content,
+.row,
+.col-lg-4,
+aside {
+    overflow: visible !important;
+}
+
+/* Fix Bootstrap flex behavior so sticky can work */
+.align-item {
+    align-items: flex-start !important;
+}
+.menu-active{color: #dc3545 !important;}
+.logo-image{width: 150px;}
+.list-none ::marker{list-style: none; content: none;}
