@@ -1521,9 +1521,20 @@ padding-left: 0;
     }
 	.timeline {
 
-    padding: 50px 0px 50px 50px;
+    padding: 20px 0px;
    
 }	
+.timeline:after {
+    content: "";
+    position: absolute;
+    width: 4px;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #333;
+    background: linear-gradient(to bottom, #fff 0%, #ffffff 50px, #ffffff calc(100% - 50px), #fff 100%);
+}
 	.tag-template img {
     width: 100% !important;
 }
@@ -2111,6 +2122,18 @@ background: #002e5b;
 }
 .avatar__wrap {
 	padding: 50px 40px;
+}
+
+.timeline:after {
+    content: "";
+    position: absolute;
+    width: 4px;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #333;
+    background: linear-gradient(to bottom, #fff 0%, #333 50px, #333 calc(100% - 50px), #fff 100%);
 }
 
 }
