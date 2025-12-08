@@ -964,6 +964,7 @@ margin: -120px -150px 100px;
 .s-single-services .services-icon {
  margin-right: 14px;
     width: 88px;
+    display: none;
 }
     .class-content span.class-price {
   width: 71px;
@@ -2141,6 +2142,7 @@ background: #002e5b;
 .timeline .timeline-item__content:after{content: none;}
 .timeline .timeline-item:after{border: none;}
 .timeline .timeline-item:nth-child(even) .timeline-item__content{background: none;}
+.timeline-steps .timeline-content .inner-circle:before{background: none;}
 
 }
 /* Large Mobile :480px. */
@@ -2167,4 +2169,7 @@ background: #002e5b;
 .timeline .timeline-item:after{border: none; background: none;}
 .timeline .timeline-item:nth-child(even) .timeline-item__content{background: none;}
 .timeline:after{background: none;}
+.timeline-steps .timeline-content .inner-circle:before{background: none;}
+.timeline-steps .timeline-content .inner-circle{background: none; height: 0px !important; display: none !important;}
+.timeline-steps .timeline-content{display: block;}
 }
