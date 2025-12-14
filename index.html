@@ -145,7 +145,7 @@
            <!-- slider-area -->
             <section id="home" class="slider-area slider-four fix p-relative">
                
-                <div class="slider-active" style="background-color: #f0fdff; ">
+                <div class="slider-active" style="background-color: #fff8f4; ">
 				<div class="single-slider slider-bg d-flex align-items-center" >
                     <div class="overlay-bg-01" data-animation="fadeInLeft" data-delay=".2s">
                         <img src="img/slider/anim-img01.png" alt="slider-overlay">
@@ -175,8 +175,19 @@
                                                               
                                     </div>
                                 </div>
-                                 <div class="col-lg-5 col-md-5 ">
-                                   <div class="img-main banner-image" data-animation="fadeInLeft" data-delay=".2s"> <img src="img/slider/main.png" alt="slider-overlay"></div>
+                                 <div class="col-lg-5 col-md-5 rounded-3">
+                                   <div class="img-main video-container" data-animation="fadeInLeft" data-delay=".2s"> 
+                                    <video width="600" height="600" autoplay loop> 
+                                        <source src="img/videos/banner-video.mp4" type="video/mp4">
+                                        <source src="img/videos/banner-video.mp4" type="video/ogg">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                    <audio autoplay loop id="background-audio">
+                                     <source src="img/videos/Yoga.mp3" type="audio/mpeg">
+                                        <source src="img/videos/Yoga.mp3" type="audio/ogg">
+                                    Your browser does not support the audio tag.
+                                    </audio>
+                                </div>
                                 </div>
                             </div>
                         </div>

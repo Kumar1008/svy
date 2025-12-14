@@ -10581,3 +10581,20 @@ aside {
 .menu-active{color: #dc3545 !important;}
 .logo-image{width: 150px;}
 .list-none ::marker{list-style: none; content: none;}
+
+.video-container {
+  /* Set a fallback background color if masking isn't supported */
+  background-color: #000; 
+  position: relative;
+  /* Define the mask using a linear gradient */
+  mask-image: linear-gradient(to bottom, #fff8f4 0%, transparent 100%);
+  /* Add vendor prefixes for maximum compatibility, e.g., -webkit-mask-image */
+  -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+  border-radius: 300px;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
