@@ -988,9 +988,10 @@ line-height: 45px;
 .breadcrumb-area {
 background-size: cover;
 position: relative;
-    min-height: 250px;
+    
     background-repeat: no-repeat;
     background-color: #000;
+    padding: 100px 10px;
 }
 .breadcrumb {
 	display: inline-block;
