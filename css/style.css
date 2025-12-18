@@ -22,16 +22,17 @@
 20. footer
 
 */
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 /* 1. Theme default css */
  body {
-       font-family: 'Roboto', sans-serif;
+    font-family: "Work Sans", sans-serif;
 	font-size: 17px;
 	font-weight: normal;
 	color: #282828;
 	font-style: normal;
-    line-height: 26px;
+    line-height: 24px;
     font-weight: 400;
 }
 .mean-container a.meanmenu-reveal span {
@@ -150,7 +151,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Jost', sans-serif;
+     font-family: "Josefin Sans", sans-serif;
 	color: #000f38;
 	margin-top: 0px;
 	font-style: normal;
@@ -193,6 +194,7 @@ ul {
  padding: 5px;
  padding-left: 10px;   
  padding-bottom: 3  px;
+ line-height: 1.5;
   
 }
 li {
@@ -202,16 +204,12 @@ li {
 li::marker {
   content: "✶"; /* Use a Unicode character or emoji */
   color: rgb(255 158 115);/* Customize color */
-  font-size: 1.1em; /* Adjust size */
+  font-size: 18px; /* Adjust size */
   margin-right: 10px;
    font-size: 25px;
    padding: 5px;
 }
-p {
-
-	
-	margin-bottom: 15px;
-}
+ 
 hr {
 	border-bottom: 1px solid #eceff8;
 	border-top: 0 none;
@@ -508,7 +506,7 @@ top: -3px;
 	padding: 20px 0;
 	position: relative;
     font-size: 16px;
-    font-family: 'Jost', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
 }
 .main-menu ul li:first-child {
 	margin-left: 0;
@@ -882,7 +880,7 @@ z-index: 9;
 }
 
 .header-three .main-menu ul li a {
-        font-family: 'Jost', sans-serif;
+     font-family: "Josefin Sans", sans-serif;
     color:#12265a;
     font-weight: 700;
 }
@@ -924,7 +922,7 @@ float: right;
 .slider-four .slider-bg .text2 h5 {
     color: #06315b;
     font-size: 18px;
-           font-family: 'Jost', sans-serif;
+     font-family: "Josefin Sans", sans-serif;
     font-weight: 500;
 }
 
@@ -1418,7 +1416,7 @@ position: relative;
 display: inline-block;
 font-weight: 700;
 width: 100%;
-font-family: 'Jost', sans-serif;
+ font-family: "Josefin Sans", sans-serif;
 margin-bottom: 20px;
 }
 .about-text span sub {
@@ -1677,13 +1675,13 @@ color: #fff;
 .sinature-box h2{
     font-size: 20px;
     font-weight: 500;
-           font-family: 'Jost', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     color: #000f38;
     margin-bottom: 5px;
 }
 .sinature-box h3{
     font-size: 14px;
-           font-family: 'Jost', sans-serif;
+     font-family: "Josefin Sans", sans-serif;
     color: #4CC3C1;
 }
 .sinature-box .user-box{
@@ -2414,13 +2412,13 @@ margin-right: 30px;
 .services-07 .user-box .text h2 {
     font-size: 24px;
     font-weight: 500;
-           font-family: 'Jost', sans-serif;
+     font-family: "Josefin Sans", sans-serif;
     color: #fff;
     margin-bottom: 5px;
 }
 .services-07 .user-box .text h3 {
     font-size: 14px;
-           font-family: 'Jost', sans-serif;
+  font-family: "Josefin Sans", sans-serif;
     color: #9a9fa2;
 }
 .services-08-item {
@@ -2742,7 +2740,7 @@ text-align: center;
 position: relative;
 float: left;
 color: #fff;
-font-family: 'Jost', sans-serif;
+ font-family: "Josefin Sans", sans-serif;
 font-size: 24px;
 font-weight: 700;
 line-height: 60px;
@@ -2934,7 +2932,7 @@ margin-bottom: 20px;
     margin-right: 25px;
     position: relative;
     border: 2px solid #1f53db;
-    font-family: 'Jost', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
 }
 .choose-btn a .icon {
     padding: 0 20px 0 0;
@@ -3567,7 +3565,7 @@ color: #fff;
 font-weight: 700;
 margin-bottom: 5px;
 line-height: 1;
-font-family: 'Jost', sans-serif;
+ font-family: "Josefin Sans", sans-serif;
 display: inline-block;
 }
 .counter small {
@@ -3650,7 +3648,7 @@ width: 98px;
 height: 34px;
 text-align: center;
 font-weight: 700;
-font-family: 'Jost', sans-serif;
+ font-family: "Josefin Sans", sans-serif;
 margin-top: 5px;
 }
 .class-tech {
@@ -4746,7 +4744,7 @@ font-weight: 700;
 }
 .price-count span {
 color: #000f38;
-font-family: 'Jost', sans-serif;
+ font-family: "Josefin Sans", sans-serif;
 }
 .pricing-body {
 	padding: 0px;
@@ -8323,7 +8321,7 @@ text-transform: uppercase;
 .features-area .nav-pills .nav-link{
     width: 100%;
     font-size: 24px;
-        font-family: 'Jost', sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-weight: 600;
 }
 .features-area .nav-pills .nav-link img{
@@ -9461,7 +9459,7 @@ overflow: hidden;
 code {
     font-size: 15px;
     display: inline-block;
-           font-family: 'Jost', sans-serif;
+     font-family: "Josefin Sans", sans-serif;
     margin-top: 10px;
 }
 figcaption{
@@ -9908,7 +9906,7 @@ div.single-cta:last-child {
     font-weight: 700;
     font-size: 24px;
     color: #000f38;
-           font-family: 'Jost', sans-serif;
+     font-family: "Josefin Sans", sans-serif;
 }
 .aw-line{
 position: relative;
@@ -10611,9 +10609,12 @@ aside {
   border-left: 8px #3c096c solid;
   padding-left: 20px;
   background: linear-gradient(90deg,rgba(255, 180, 149, 1) 0%, rgba(255, 180, 149, 1) 14%, rgba(255, 255, 255, 0) 100%);
-  padding: 15px;
-   font-family: "Pacifico", cursive !important;
-  font-weight: 400;
+  padding: 10px;
+   font-family: "Cookie", cursive !important;
+  font-weight: 500;
+   text-transform:capitalize;
   font-style: normal;
-  font-size: 20px;
+  font-size: 35px !important;
+  color: #3c2b86;
+ letter-spacing:2px;
 }
