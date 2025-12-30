@@ -2010,8 +2010,9 @@ background: #002e5b;
 	margin-right: 15px;
 }
 #scrollUp {
-	right: 20px;
-	bottom: 30px;
+	/* right: 20px;
+	bottom: 30px; */
+    display: none;
 }
 .video-wrap > img {
 	display: none;
