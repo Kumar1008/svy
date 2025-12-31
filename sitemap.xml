@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://svy-web.netlify.app/</loc>
+  <lastmod>2025-12-31T04:24:24+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://svy-web.netlify.app/about</loc>
+  <lastmod>2025-12-31T04:24:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://svy-web.netlify.app/courses</loc>
+  <lastmod>2025-12-31T04:24:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://svy-web.netlify.app/free-healing-session</loc>
+  <lastmod>2025-12-31T04:24:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://svy-web.netlify.app/healing-course</loc>
+  <lastmod>2025-12-31T04:24:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://svy-web.netlify.app/gallery</loc>
+  <lastmod>2025-12-31T04:24:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://svy-web.netlify.app/contact</loc>
+  <lastmod>2025-12-31T04:24:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://svy-web.netlify.app/nar-karma-viruthi</loc>
+  <lastmod>2025-12-31T04:24:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://svy-web.netlify.app/suya-viruthi-yoga</loc>
+  <lastmod>2025-12-31T04:24:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://svy-web.netlify.app/yoga-viruthi</loc>
+  <lastmod>2025-12-31T04:24:24+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://svy-web.netlify.app/residential-spiritual-camps</loc>
+  <lastmod>2025-12-31T04:24:24+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
