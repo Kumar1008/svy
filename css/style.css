@@ -10641,3 +10641,18 @@ aside {
   z-index: 999;
 }
  
+.play-icon
+{
+    position: absolute;
+    top:50%;
+    right: 66%;
+}
+.image-hover:hover
+{
+    overlay: 0;
+    box-shadow: #000;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
