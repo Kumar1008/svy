@@ -2144,6 +2144,7 @@ background: #002e5b;
 .timeline .timeline-item:after{border: none;}
 .timeline .timeline-item:nth-child(even) .timeline-item__content{background: none;}
 .timeline-steps .timeline-content .inner-circle:before{background: none;}
+.play-icon {width: 50px;}
 
 }
 /* Large Mobile :480px. */
@@ -2161,6 +2162,7 @@ background: #002e5b;
     margin: 0 2px;
 
 }
+.play-icon {width: 50px;}
 }
 @media only screen and (min-width: 280px) and (max-width: 480px) {
     .timeline .timeline-item > div{width: 100% !important;}
@@ -2173,4 +2175,5 @@ background: #002e5b;
 .timeline-steps .timeline-content .inner-circle:before{background: none;}
 .timeline-steps .timeline-content .inner-circle{background: none; height: 0px !important; display: none !important;}
 .timeline-steps .timeline-content{display: block;}
+.play-icon {width: 50px;}
 }
