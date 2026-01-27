@@ -4,68 +4,108 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+ 
 
 
 <url>
   <loc>https://sitthaviruthiyoga.com/</loc>
-  <lastmod>2025-12-31T04:24:24+00:00</lastmod>
+  <lastmod>2026-01-27T06:53:06+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://sitthaviruthiyoga.com/about</loc>
-  <lastmod>2025-12-31T04:24:24+00:00</lastmod>
+  <lastmod>2026-01-27T06:53:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://sitthaviruthiyoga.com/courses</loc>
-  <lastmod>2025-12-31T04:24:24+00:00</lastmod>
+  <lastmod>2026-01-27T06:53:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://sitthaviruthiyoga.com/free-healing-session</loc>
-  <lastmod>2025-12-31T04:24:24+00:00</lastmod>
+  <lastmod>2026-01-27T06:53:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://sitthaviruthiyoga.com/healing-course</loc>
-  <lastmod>2025-12-31T04:24:24+00:00</lastmod>
+  <lastmod>2026-01-27T06:53:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sitthaviruthiyoga.com/blog</loc>
+  <lastmod>2026-01-27T06:53:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sitthaviruthiyoga.com/testimonials</loc>
+  <lastmod>2026-01-27T06:53:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://sitthaviruthiyoga.com/gallery</loc>
-  <lastmod>2025-12-31T04:24:24+00:00</lastmod>
+  <lastmod>2026-01-27T06:53:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://sitthaviruthiyoga.com/contact</loc>
-  <lastmod>2025-12-31T04:24:24+00:00</lastmod>
+  <lastmod>2026-01-27T06:53:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://sitthaviruthiyoga.com/nar-karma-viruthi</loc>
-  <lastmod>2025-12-31T04:24:24+00:00</lastmod>
+  <lastmod>2026-01-27T06:53:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://sitthaviruthiyoga.com/suya-viruthi-yoga</loc>
-  <lastmod>2025-12-31T04:24:24+00:00</lastmod>
+  <lastmod>2026-01-27T06:53:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://sitthaviruthiyoga.com/yoga-viruthi</loc>
-  <lastmod>2025-12-31T04:24:24+00:00</lastmod>
+  <lastmod>2026-01-27T06:53:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sitthaviruthiyoga.com/what-are-chakras</loc>
+  <lastmod>2026-01-27T06:53:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sitthaviruthiyoga.com/spiritual-an-explanation-part-two</loc>
+  <lastmod>2026-01-27T06:53:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sitthaviruthiyoga.com/moola-dhara-chakra%E2%80%93definition-and-explanation.html</loc>
+  <lastmod>2026-01-27T06:53:06+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://sitthaviruthiyoga.com/residential-spiritual-camps</loc>
-  <lastmod>2025-12-31T04:24:24+00:00</lastmod>
+  <lastmod>2026-01-27T06:53:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://sitthaviruthiyoga.com/spiritual-an-explanation</loc>
+  <lastmod>2026-01-27T06:53:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://sitthaviruthiyoga.com/poornima-venkatesan</loc>
-  <lastmod>2026-01-13:24:24+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2026-01-27T06:53:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sitthaviruthiyoga.com/devaraj</loc>
+  <lastmod>2026-01-27T06:53:06+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://sitthaviruthiyoga.com/maheshwari-ramkumar</loc>
+  <lastmod>2026-01-27T06:53:06+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
