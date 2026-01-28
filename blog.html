@@ -204,33 +204,33 @@
         </script>
 
         <!-- Review & Rating Schema (Local Business) -->
-         <!-- <script type="application/ld+json">
+        <script type="application/ld+json">
             {
             "@context": "https://schema.org",
-            "@type": "HealthAndBeautyBusiness",
+            "@type": "HealthClub",
             "name": "Sittha Viruthi Yoga",
             "url": "https://sitthaviruthiyoga.com/",
             "aggregateRating": {
                 "@type": "AggregateRating",
-                "ratingValue": "4.8",
-                "reviewCount": "126"
+                "ratingValue": "5.0",
+                "reviewCount": "1"
             },
             "review": [
                 {
                 "@type": "Review",
                 "author": {
                     "@type": "Person",
-                    "name": "Karthikeyan"
+                    "name": "Poornima Venkatesan"
                 },
                 "reviewRating": {
                     "@type": "Rating",
                     "ratingValue": "5"
                 },
-                "reviewBody": "Excellent healing experience with authentic Siddha yoga practices."
+                "reviewBody": "From this Narkarma Viruthi, I realized how much emotional, mental, and karmic baggage we unknowingly carry. These teachings helped me identify that weight and, more importantly, learn how to unburden myself—not forcefully, but gently and consciously."
                 }
             ]
             }
-        </script> -->
+        </script> 
 
         <!-- Google tag (gtag.js) -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-HQ69TX7FZ2"></script>
@@ -252,34 +252,33 @@
         })(window,document,'script','dataLayer','GTM-TG7C2H6M');</script>
         <!-- End Google Tag Manager -->
 
-      <script>
-       fetch("header.html")
-    .then(res => res.text())
-    .then(data => {
-      document.getElementById("header").innerHTML = data;
+        <!-- Header and Menu Active JS -->
+         <script>
+            fetch("header.html")
+            .then(res => res.text())
+            .then(data => {
+            document.getElementById("header").innerHTML = data;
 
-      // Active menu logic
-      const currentPage = window.location.pathname
-        .split("/")
-        .pop()
-        .replace(".html", "") || "index";
+            // Active menu logic
+            const currentPage = window.location.pathname
+                .split("/")
+                .pop()
+                .replace(".html", "") || "index";
 
-      document.querySelectorAll(".main-nav a").forEach(link => {
-        if (link.dataset.page === currentPage) {
-          link.classList.add("active");
-        }
-      });
-    });
+            document.querySelectorAll(".main-nav a").forEach(link => {
+                if (link.dataset.page === currentPage) {
+                link.classList.add("active");
+                }
+            });
+            });
         </script>
-
-
-<script>
-    document.querySelectorAll("#mobile-menu a").forEach(link => {
-  link.addEventListener("click", () => {
-    menuList.classList.remove("open");
-  });
-});
-</script>
+        <script>
+            document.querySelectorAll("#mobile-menu a").forEach(link => {
+        link.addEventListener("click", () => {
+            menuList.classList.remove("open");
+        });
+        });
+        </script>
 
 		<!-- CSS here -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -474,9 +473,7 @@
         </main>
         <div id="footer"></div>
         
-        <!-- footer-end -->
-
-		<!-- JS here -->
+        <!-- Footer JS -->
         <script>
              fetch("footer.html")
             .then(response => response.text())
