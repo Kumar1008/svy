@@ -4407,7 +4407,7 @@ left: 0;
 	z-index: 1;
 }
 .single-post2 {
-    display: inline-block;
+    display: grid;
     align-items: stretch;
 }
 .single-post .blog-content {
