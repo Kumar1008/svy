@@ -10719,3 +10719,7 @@ aside {
   justify-content: flex-end;
 }
 
+.mean-container .active
+{
+    color: #dc3545 !important
+}

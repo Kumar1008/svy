@@ -828,6 +828,7 @@ box-shadow: 3px 4px 15px #0000001A;
     overflow: hidden;
 	display:block;
 }
+ 
 .menu .page_item_has_children > ul > .page_item_has_children:hover > ul {
     margin-left: 0;
     margin-top: 0;
@@ -1106,7 +1107,7 @@ margin-top: 15px;
     font-weight: 600;
 }
 .mean-container .mean-nav ul li li a:first-child,.menu .sub-menu li:last-child {
-    /*border: none;*/
+    border: none;
     }
 .menu .sub-menu li, .menu .children li {
     border-bottom: 1px solid rgba(217, 217, 217, 0.5);
@@ -1125,6 +1126,10 @@ box-shadow: 3px 4px 15px #0000001A;
 }
     .mean-container .mean-nav ul li a.mean-expand:hover {
     background: rgba(0, 0, 0, 0);
+}
+.mean-nav a .active
+{
+    color: #d29751;
 }
 .mean-container .mean-nav ul {
     overflow: hidden;
