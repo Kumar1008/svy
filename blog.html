@@ -252,6 +252,34 @@
         })(window,document,'script','dataLayer','GTM-TG7C2H6M');</script>
         <!-- End Google Tag Manager -->
 
+      <script>
+       fetch("header.html")
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById("header").innerHTML = data;
+
+      // Active menu logic
+      const currentPage = window.location.pathname
+        .split("/")
+        .pop()
+        .replace(".html", "") || "index";
+
+      document.querySelectorAll(".main-nav a").forEach(link => {
+        if (link.dataset.page === currentPage) {
+          link.classList.add("active");
+        }
+      });
+    });
+        </script>
+
+
+<script>
+    document.querySelectorAll("#mobile-menu a").forEach(link => {
+  link.addEventListener("click", () => {
+    menuList.classList.remove("open");
+  });
+});
+</script>
 
 		<!-- CSS here -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -449,40 +477,14 @@
         <!-- footer-end -->
 
 		<!-- JS here -->
-
         <script>
-        fetch("header.html")
-            .then(response => response.text())
-            .then(data => {
-            document.getElementById("header").innerHTML = data;
-            });
-
-        fetch("footer.html")
+             fetch("footer.html")
             .then(response => response.text())
             .then(data => {
             document.getElementById("footer").innerHTML = data;
             });
         </script>
-
-        <script>
-        fetch("header.html")
-            .then(res => res.text())
-            .then(data => {
-            document.getElementById("header").innerHTML = data;
-
-            // Active menu logic
-            const currentPage = window.location.pathname
-                .split("/")
-                .pop()
-                .replace(".html", "") || "index";
-
-            document.querySelectorAll(".main-menu a").forEach(link => {
-                if (link.dataset.page === currentPage) {
-                link.classList.add("active");
-                }
-            });
-            });
-        </script>
+        
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="js/vendor/jquery-3.6.0.min.js"></script>
         <script src="js/popper.min.js"></script>

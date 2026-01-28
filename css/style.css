@@ -10714,3 +10714,8 @@ aside {
 .main-nav a.active {
  color: #dc3545 !important;
 }
+.main-nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
