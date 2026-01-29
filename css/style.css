@@ -4407,7 +4407,7 @@ left: 0;
 	z-index: 1;
 }
 .single-post2 {
-    display: grid;
+    display: block;
     align-items: stretch;
 }
 .single-post .blog-content {
@@ -10702,4 +10702,24 @@ aside {
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
+}
+
+.main-nav a {
+  padding: 10px 16px;
+  text-decoration: none;
+  color: #030c26 !important;
+  font-weight: 500;
+}
+
+.main-nav a.active {
+ color: #dc3545 !important;
+}
+.main-nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mean-container .active
+{
+    color: #dc3545 !important
 }
