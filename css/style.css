@@ -10714,6 +10714,7 @@ aside {
 .main-nav a.active {
  color: #dc3545 !important;
 }
+.main-nav a:hover{color: #dc3545 !important}
 .main-nav ul {
   display: flex;
   justify-content: flex-end;
@@ -10722,4 +10723,14 @@ aside {
 .mean-container .active
 {
     color: #dc3545 !important
+}
+.text-link
+{
+color: #dc3545 !important;
+text-decoration: underline;
+}
+.text-link:hover
+{
+color: #002e5b !important;
+text-decoration: underline;
 }
