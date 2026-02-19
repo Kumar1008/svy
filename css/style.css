@@ -6009,10 +6009,10 @@ padding: 10px;
     margin: 0 0 1rem;
 }
 a, h1, h2, h3, h4, h5, h6, p, span {
-    overflow-wrap: break-word;
+    overflow-wrap: normal;
 }
 h1, h2, h3, h4, h5, h6{
-    overflow-wrap: break-word;
+    overflow-wrap: normal;
 }
 .has-text-color.has-background.has-very-light-gray-color {
     color: #fff;
