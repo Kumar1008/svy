@@ -463,50 +463,8 @@
                             </div>
                         </div>
                          <!-- #right side -->
-                        <div class="col-lg-4 col-md-12 sticky-top">
-                               <div class="timeline-item__image">
-                            <img src="/img/course/narkarma-viruthi-course.jpg">
-                          <div class="  mt-10 pb-3 text-center">     
-                            <a href="nar-karma-viruthi.html" class="btn ss-btn" data-animation="fadeInLeft" data-delay=".4s">Join Narkarma Viruthi Today!</a>
-                          </div>
-                        </div>
-                             <aside class="sidebar-widget">
-                                
-                             <section class="widget widget_search ">
-                                    <div class="course-widget-price">
-                                   <h2 class="widget-title text-white">Course : Narkarma Viruthi </h2>
-                                     <ul class="list-none">
-                                        <li class="text-white">
-                                           <i class="fal fa-clock text-white"></i>
-                                            <span>Next Class</span>
-                                            <span class="time">Feb 22, 2026</span>
-                                        </li>
-                                         
-                                        <li class="text-white">
-                                           <i class="fab fa-leanpub text-white"></i>
-                                            <span>Class Duration</span>
-                                            <span class="time">9:00 AM - 8:00 PM</span>
-                                        </li>
-                                        <li class="text-white">
-                                           <i class="fal fa-user-graduate text-white"></i>
-                                            <span>Place</span>
-                                            <span class="time">Coimbatore</span>
-                                        </li>
-                                        <li class="text-white">
-                                           <i class="fal fa-plus-hexagon text-white"></i>
-                                            <span>Seats Available</span>
-                                            <span class="time">25</span>
-                                        </li>
-                                        <li class="text-white">
-                                            <i class="fal fa-user text-white"></i>
-                                            <span>Level</span>
-                                            <span class="time">First level</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                              </section>
-                            </aside>
-                        
+                      <div class="col-lg-4 col-md-12 sticky-top" id="nar-karma-viruthi-course-details">
+
                         </div>
                         <!-- #right side end -->
                     </div>
@@ -524,6 +482,13 @@
             .then(response => response.text())
             .then(data => {
             document.getElementById("footer").innerHTML = data;
+            });
+        </script>
+         <script>
+             fetch("nar-karma-viruthi-course-details.html")
+            .then(response => response.text())
+            .then(data => {
+            document.getElementById("nar-karma-viruthi-course-details").innerHTML = data;
             });
         </script>
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
