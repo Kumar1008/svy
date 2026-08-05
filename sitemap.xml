@@ -39,6 +39,15 @@
        <priority>0.8000</priority>
   </url>
   <url>
+<<<<<<< HEAD
+=======
+       <loc>https://sitthaviruthiyoga.com/upekkha-the-wisdom-of-inner-balance</loc>
+       <lastmod>2026-08-05T00:00:00+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+>>>>>>> 348df8e (update upekkah blog)
        <loc>https://sitthaviruthiyoga.com/testimonials</loc>
        <lastmod>2026-07-23T10:26:12+00:00</lastmod>
        <changefreq>daily</changefreq>
